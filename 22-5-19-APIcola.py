@@ -16,7 +16,7 @@ def tocloud(valors):
 # Cayenne authentication info. This should be obtained from the Cayenne Dashboard.
 MQTT_USERNAME	= "57566e80-7c79-11e9-9636-f9904f7b864b"
 MQTT_PASSWORD	= "31f97a16c29f50b41a5e7c863bc763c5b0180686"
-MQTT_CLIENT_ID	= "65c11330-7c79-11e9-b4eb-6bf2c2412b24"
+MQTT_CLIENT_ID	= "45352210-7c87-11e9-b4eb-6bf2c2412b24"
 client		= cayenne.client.CayenneMQTTClient()
 client.begin(MQTT_USERNAME, MQTT_PASSWORD, MQTT_CLIENT_ID)
 
